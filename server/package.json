@@ -1,0 +1,10 @@
+{
+  "name": "live-stream-server",
+  "version": "0.0.1",
+  "description": "live stream server",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.5",
+    "mediasoup": "3"
+  }
+}

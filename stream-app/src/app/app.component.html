@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row justify-content-start">
+    <div class="col-8">
+      <canvas #canvas id="canvas" width="1024" height="480" style="border:1px solid #000000;"></canvas>
+    </div>
+  </div>
+  <div class="row align-items-start">
+    <div class="col">
+      <video #video autoplay id="video" width="100" height="100" style="border:1px solid #000000;" (click)="focusVideo('video')"></video>
+    </div>
+    <div class="col">
+      <video #video2 autoplay id="video2" width="100" height="100" style="border:1px solid #000000;" (click)="focusVideo('video2')">
+      </video>
+    </div>
+    <div class="col">
+      <video #video3 id="video3" width="100" height="100" style="border:1px solid #000000;" (click)="focusVideo('video3')">
+        <source src="assets/test.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="col">
+      <video #video4 id="video4" width="100" height="100" style="border:1px solid #000000;" (click)="focusVideo('video3')">
+        <source src="assets/test.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</div>
+
